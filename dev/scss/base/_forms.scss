@@ -1,0 +1,72 @@
+// forms
+
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+input[type='search'],
+input[type='password'],
+//input[type='url'],
+// input[type='date'],
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  box-sizing: border-box;
+  border: 1px solid $form-element-border-color;
+  padding: $form-element-padding;
+  font-family: $base-font-sans-serif;
+  font-size: 15px;
+  width: 100%;  
+  background: $base-background-color;
+  text-align: center;
+
+  &:focus {
+    border-color: $form-element-focus-border-color;
+    background: $base-background-color;
+    outline: none;
+    font-style: normal;
+    color: $base-text-color;
+  }
+
+  @include placeholder {
+    color: $placeholder-color;
+    text-align: center;
+  }
+
+  @include media('<desktop') {
+    font-size: 14px;
+  }
+
+  @include media('<tablet') {
+    font-size: 12px;
+  }
+}
+
+select {
+  -webkit-border-radius: 0;
+}
+
+textarea {
+  resize: none;
+  vertical-align: top;
+      padding: 0 0.7em;
+}
+
+input[type='button'],
+input[type='reset'],
+input[type='file'],
+input[type='submit'] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  cursor: pointer;
+  background: $black;
+  border-color: $black;
+  color: $white;
+}
+

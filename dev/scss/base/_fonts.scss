@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+    url('../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+    url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?qel4c0');
+  src:  url('../fonts/icomoon.eot?qel4c0#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?qel4c0') format('truetype'),
+    url('../fonts/icomoon.woff?qel4c0') format('woff'),
+    url('../fonts/icomoon.svg?qel4c0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close-envelope:before {
+  content: "\e900";
+}
+.icon-pin:before {
+  content: "\e901";
+}
+.icon-telephone:before {
+  content: "\e902";
+}
+.icon-upload-to-arrow:before {
+  content: "\e903";
+}
+.icon-heart:before {
+  content: "\e904";
+}
+.icon-line-chart:before {
+  content: "\e905";
+}
+.icon-instagram-social:before {
+  content: "\e906";
+}
+.icon-twitter-social:before {
+  content: "\e907";
+}
+
